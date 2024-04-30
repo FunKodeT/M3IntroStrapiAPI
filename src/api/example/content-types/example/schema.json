@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examples",
+  "info": {
+    "singularName": "example",
+    "pluralName": "examples",
+    "displayName": "Example",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "genre": {
+      "type": "enumeration",
+      "enum": [
+        "First Person",
+        "Second Person",
+        "Third Person",
+        "Fourth Person"
+      ]
+    },
+    "length": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "genre": {
+      "type": "enumeration",
+      "enum": [
+        "firstperson",
+        "secondperson",
+        "thirdperson",
+        "fourthperson",
+        "fifthperson"
+      ]
+    },
+    "length": {
+      "type": "string"
+    }
+  }
+}
